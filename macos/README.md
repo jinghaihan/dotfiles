@@ -9,7 +9,7 @@ sh macos/defaults.sh
 ```
 
 Dock, Finder, and SystemUIServer restart to apply the settings.
-Log out and back in if trackpad or mouse settings do not take effect immediately.
+Log out and back in if trackpad settings do not take effect immediately.
 
 ## Dock
 
@@ -33,22 +33,22 @@ Move the pointer to the bottom-left corner to open Quick Note. No modifier key i
 | Path bar | Visible |
 | Default view | List |
 | Search scope | Current folder |
-| New window location | Home directory |
+| New window location | Downloads directory |
 | Folders first | Enabled |
 | Folders first on desktop | Enabled |
 
-## Trackpad and mouse
+## Trackpad
 
 | Setting | Value |
 | --- | --- |
 | Tap to click | Enabled |
 | Three-finger drag | Enabled |
-| Click pressure | Light |
+| Built-in trackpad click pressure | Light |
 | Trackpad tracking speed | 1.5 |
-| Mouse tracking speed | 0.5 |
 
-Trackpad preferences apply to both built-in and Bluetooth trackpads.
-Tracking speeds use macOS internal values.
+Tap to click and three-finger drag apply to both built-in and Bluetooth trackpads.
+Mouse tracking speed and Bluetooth trackpad click pressure retain their existing settings.
+Trackpad tracking speed uses macOS internal values.
 
 ## Menu bar clock
 

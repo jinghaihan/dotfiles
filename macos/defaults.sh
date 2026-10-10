@@ -15,7 +15,8 @@ defaults write com.apple.dock wvous-bl-corner -int 14
 defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.finder FXPreferredViewStyle -string Nlsv
 defaults write com.apple.finder FXDefaultSearchScope -string SCcf
-defaults write com.apple.finder NewWindowTarget -string PfHm
+defaults write com.apple.finder NewWindowTarget -string PfLo
+defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME/Downloads/"
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 defaults write com.apple.finder _FXSortFoldersFirstOnDesktop -bool true
 
@@ -23,13 +24,12 @@ defaults write com.apple.finder _FXSortFoldersFirstOnDesktop -bool true
 for domain in com.apple.AppleMultitouchTrackpad com.apple.driver.AppleBluetoothMultitouch.trackpad; do
   defaults write "$domain" Clicking -bool true
   defaults write "$domain" TrackpadThreeFingerDrag -bool true
-  defaults write "$domain" FirstClickThreshold -int 0
-  defaults write "$domain" SecondClickThreshold -int 0
 done
+defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0
+defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -int 0
 
 # Pointer speed
 defaults write -g com.apple.trackpad.scaling -float 1.5
-defaults write -g com.apple.mouse.scaling -float 0.5
 
 # Menu bar clock
 defaults write com.apple.menuextra.clock IsAnalog -bool true
