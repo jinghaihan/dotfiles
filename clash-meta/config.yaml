@@ -1,0 +1,6 @@
+mixed-port: 7890
+port: 0
+socks-port: 0
+external-controller: 127.0.0.1:9090
+allow-lan: false
+mode: rule

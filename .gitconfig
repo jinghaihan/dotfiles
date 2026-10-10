@@ -1,0 +1,13 @@
+[user]
+    name = jinghaihan
+    email = jhh19980114@gmail.com
+[init]
+    defaultBranch = main
+[http]
+    proxy = http://127.0.0.1:7890
+[https]
+    proxy = http://127.0.0.1:7890
+# [includeIf "gitdir:~/code/foo/"]
+#     path = ~/.gitconfig-foo
+# [includeIf "gitdir:~/code/bar/"]
+#     path = ~/.gitconfig-bar
