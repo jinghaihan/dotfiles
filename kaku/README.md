@@ -7,8 +7,11 @@ mkdir -p ~/.config/kaku
 cp kaku/kaku.lua ~/.config/kaku/kaku.lua
 ```
 
-Install the configured fonts with Homebrew:
+The primary font is MonoLisa. Install it separately before using this
+configuration; it is not available as a Homebrew cask.
+
+Install the Chinese fallback font with Homebrew:
 
 ```sh
-brew install --cask font-0xproto font-maple-mono-cn
+brew install --cask font-maple-mono-cn
 ```

@@ -123,7 +123,7 @@ config.color_scheme = 'Kaku Light'
 -- ~/.config/kaku/assistant.toml, not in this file.
 
 config.font = wezterm.font_with_fallback({
-  '0xProto',
+  'MonoLisa',
   'Maple Mono CN',
 })
 config.font_size = 16

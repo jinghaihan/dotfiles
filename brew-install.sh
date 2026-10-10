@@ -58,7 +58,7 @@ brew install --cask codex
 brew install --cask codexbar
 
 # fonts
-brew install --cask font-0xproto
+# Install MonoLisa separately; it is not available as a Homebrew cask.
 brew install --cask font-geist
 brew install --cask font-geist-mono
 brew install --cask font-maple-mono
