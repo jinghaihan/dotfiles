@@ -63,4 +63,3 @@ brew install --cask font-geist
 brew install --cask font-geist-mono
 brew install --cask font-maple-mono
 brew install --cask font-maple-mono-cn
-brew install --cask font-quicksand

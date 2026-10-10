@@ -17,5 +17,12 @@ match the proxy available on each machine, then fully quit and reopen Codex.
 
 ## Appearance
 
+Both themes use Geist for the interface and Geist Mono for code. Install them
+with Homebrew before importing a theme:
+
+```sh
+brew install --cask font-geist font-geist-mono
+```
+
 - [Light](./light.txt)
 - [Dark](./dark.txt)
