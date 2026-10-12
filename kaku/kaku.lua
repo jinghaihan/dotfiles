@@ -129,7 +129,7 @@ config.font = wezterm.font_with_fallback({
 config.font_size = 16
 config.line_height = 1.2
 
-config.window_padding = { left = '16px', right = '16px', top = '12px', bottom = '0px' }
+config.window_padding = { left = '16pt', right = '16pt', top = '12pt', bottom = '0pt' }
 
 config.tab_bar_at_bottom = false
 config.use_fancy_tab_bar = true
